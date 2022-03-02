@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        div ~ p span { color: red; }
+        #teste2 { color: red; }
+        #teste li[item] { color: red;}
+    </style>
+</head>
+<body>
+    <div>
+        <p><span>ola mundo</span></p>
+        <p><span>ola mundo</span></p>
+        <p><span>ola mundo</span></p>
+        <p><span>ola mundo</span></p>
+    </div>
+
+    <p><span>ola mundo</span></p>
+    <p><span>ola mundo</span></p>
+    <p item="item-1"><span>ola mundo</span></p>
+
+    <ul id="teste">
+        <li item="item-1">content 1</li>
+        <li item="item-2">content 2</li>
+    </ul>
+
+    <ul id="teste2">
+        <li item="item-1">content 1</li>
+        <li item="item-2">content 2</li>
+    </ul>
+
+    <ul id="teste2">
+        <li item="item-1">content 1</li>
+        <li item="item-2">content 2</li>
+    </ul>
+</body>
+</html>
