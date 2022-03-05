@@ -15,6 +15,10 @@
 - Criação de elementos
 - Métodos e atributos de um objeto
 
+**Eventos**
+- Ouvindo eventos
+- Criando eventos customizados
+
 **POO**
 - Criação de classes
 - Instanciação de classe
