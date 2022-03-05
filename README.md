@@ -9,10 +9,10 @@
 ## JS I
 
 - Estrutura de dados
+- Laços de repetição (percorrer estruturas de dados)
 - Seleção de elementos
 - Manipulaçao de elementos
 - Criação de elementos
-- Laços de repetição (percorrer estruturas de dados)
 - Métodos e atributos de um objeto
 
 **POO**

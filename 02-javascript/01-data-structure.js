@@ -8,6 +8,16 @@ let users = [
         name: "Fabio",
         lastName: "Freitas",
         age: 36,
+    },
+    {
+        name: "Eris",
+        lastName: "Alves",
+        age: 38,
+    },
+    {
+        name: "Paulo",
+        lastName: "Fernandes",
+        age: 1,
     }
 ];
 
@@ -26,7 +36,38 @@ let users = [
 // console.log(users.length);//2
 // console.log(users[0].length);//undefined
 
-users.forEach(function (user, index) {
-    console.log(index);
-    console.table(user);
+users.forEach((user, index) => {
+    //indexOf
+    // let message = "Hello " + user.name
+    let message = `Hello ${user.name}`  //curly brackets
+    console.log(message);
 });
+
+// In PHP, the foreach would be like this:
+/*
+foreach($users as $index => $user)
+{
+    var_dump($user);
+}
+*/
+
+// what are we going to learn today?
+
+// (singular)  this person is called 'user'
+// (plural) -> these people are called 'users'
+
+
+/*
+nomes = [
+    'pedro',
+    'paulo',
+];
+
+console.log(nomes.indexOf('pedro'))
+*/
+
+lessThan30 =  users.filter((user) => {
+    return user.age < 30;
+})
+
+console.table(lessThan30);
