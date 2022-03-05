@@ -23,6 +23,8 @@
 - Criação de classes
 - Instanciação de classe
 
+----
+
 ## JS II
 
 - Utilizando bibliotecas de terceiros
@@ -30,6 +32,7 @@
     - Download
 - Utilizando bibliotecas via NPM
 
+----
 
 ## JS III
 
